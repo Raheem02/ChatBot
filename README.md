@@ -36,12 +36,6 @@ This project is a chatbot application built with a React frontend and a Flask ba
     npm install
     ```
 
-2. Create a `.env` file in the root of the [frontend](http://_vscodecontentref_/1) directory with the following content:
-
-    ```env
-    REACT_APP_BACKEND_URL=https://your-app-name.herokuapp.com
-    ```
-
 ### Backend
 
 1. Navigate to the backend directory:
@@ -84,81 +78,3 @@ This project is a chatbot application built with a React frontend and a Flask ba
     ```
 
 2. The backend will be running at `http://127.0.0.1:5000`.
-
-## Deployment
-
-### Frontend Deployment
-
-1. Install the `gh-pages` package:
-
-    ```sh
-    npm install gh-pages --save-dev
-    ```
-
-2. Update `package.json` with the following properties:
-
-    ```json
-    {
-      "homepage": "https://<your-github-username>.github.io/<your-repo-name>",
-      "scripts": {
-        "predeploy": "npm run build",
-        "deploy": "gh-pages -d build"
-      }
-    }
-    ```
-
-3. Deploy to GitHub Pages:
-
-    ```sh
-    npm run deploy
-    ```
-
-### Backend Deployment
-
-1. Create a `Procfile` in the [backend](http://_vscodecontentref_/2) directory with the following content:
-
-    ```Procfile
-    web: python app.py
-    ```
-
-2. Create a `requirements.txt` file:
-
-    ```sh
-    pip freeze > requirements.txt
-    ```
-
-3. Login to Heroku:
-
-    ```sh
-    heroku login
-    ```
-
-4. Create a new Heroku app:
-
-    ```sh
-    heroku create your-app-name
-    ```
-
-5. Deploy to Heroku:
-
-    ```sh
-    git init
-    git add .
-    git commit -m "Initial commit"
-    git push heroku master
-    ```
-
-6. Set environment variables on Heroku (if needed):
-
-    ```sh
-    heroku config:set YOUR_ENV_VARIABLE=value
-    ```
-
-## Environment Variables
-
-### Frontend
-
-Create a `.env` file in the root of the [frontend](http://_vscodecontentref_/3) directory with the following content:
-
-```env
-REACT_APP_BACKEND_URL=https://your-app-name.herokuapp.com
