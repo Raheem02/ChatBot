@@ -17,8 +17,8 @@
     "where do you get your information?": "I base my answers on official documentation, your queries, and general knowledge."
   },
   "segment": {
-    "what is segment?": "Segment is a customer data platform that helps you collect, clean, and control your customer data.",
-    "segment?": "Segment is a customer data platform that helps you collect, clean, and control your customer data.",
+    "what is segment": "Segment is a customer data platform that helps you collect, clean, and control your customer data.",
+    "segment": "Segment is a customer data platform that helps you collect, clean, and control your customer data.",
     "how do i set up segment?": "To set up Segment, create an account, add your sources, and configure your destinations. Check the documentation for detailed steps.",
     "what are the features of segment?": "Segment offers features like data collection, data integration, audience management, and data governance.",
     "how to integrate segment with other tools?": "You can integrate Segment with tools by setting up destinations in your workspace. Check the Segment documentation for a full guide.",
@@ -37,7 +37,7 @@
     "what is the segment debugger?": "The Segment debugger allows you to inspect incoming events and debug tracking issues in real-time."
   },
   "mparticle": {
-    "what is mparticle?": "mParticle is a customer data platform that helps unify and integrate customer data across channels.",
+    "what is mparticle": "mParticle is a customer data platform that helps unify and integrate customer data across channels.",
     "mparticle": "mParticle is a customer data platform that helps unify and integrate customer data across channels.",
     "what are the features of mparticle?": "mParticle provides features like data unification, real-time data streams, audience segmentation, and identity resolution.",
     "how to get started with mparticle?": "To get started with mParticle, create an account, integrate your data sources, and set up your events. Refer to the documentation for a full walkthrough.",
@@ -57,7 +57,7 @@
     "how to set up an integration in mparticle?": "To set up an integration, select a destination in the mParticle UI, configure its settings, and map your events."
   },
   "lytics": {
-    "what is lytics?": "Lytics is a customer data platform that unifies and activates customer data for personalized marketing.",
+    "what is lytics": "Lytics is a customer data platform that unifies and activates customer data for personalized marketing.",
     "lytics?": "Lytics is a customer data platform that unifies and activates customer data for personalized marketing.",
     "what are the features of lytics?": "Lytics offers features like predictive analytics, audience segmentation, and real-time marketing activation.",
     "how to use lytics for segmentation?": "You can use Lytics to create audiences based on behavioral data and attributes. Check the Lytics documentation for examples.",
@@ -79,7 +79,7 @@
     "what are lytics data schema best practices?": "Follow Lytics' recommended schema practices, such as defining clear data types, avoiding unnecessary nesting, and ensuring compatibility with integrations."
   },
   "zeotap": {
-    "what is zeotap?": "Zeotap is a customer data platform that helps you connect and activate data for analytics and marketing.",
+    "what is zeotap": "Zeotap is a customer data platform that helps you connect and activate data for analytics and marketing.",
     "zeotap": "Zeotap is a customer data platform that helps you connect and activate data for analytics and marketing.",
     "what are the benefits of zeotap?": "Zeotap offers improved data accuracy, better insights, and enhanced marketing performance.",
     "how does zeotap handle data activation?": "Zeotap enables data activation by connecting customer data to marketing tools and platforms for personalized campaigns.",
